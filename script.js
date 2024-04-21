@@ -87,12 +87,12 @@ document.getElementById('submitButton').addEventListener('click', function() {
     const frequency = frequencyTable[word];
     const tableRow = document.createElement('tr');
     
-    var wordCell = document.createElement('td');
+    const wordCell = document.createElement('td');
     wordCell.textContent = word;
     wordCell.style.padding = '10px';
     wordCell.style.border = '1px solid #ddd';
     
-    var frequencyCell = document.createElement('td');
+    const frequencyCell = document.createElement('td');
     frequencyCell.textContent = frequency;
     frequencyCell.style.padding = '10px';
     frequencyCell.style.border = '1px solid #ddd';
