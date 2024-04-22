@@ -1,3 +1,8 @@
+/* 
+Thanks to Brian in my class, he pointed out this 
+function for loading the JS file after everything 
+in HTML loads in. Excellent work.
+*/
 document.addEventListener("DOMContentLoaded", function() {
 // Creating the text area
 const textArea = document.createElement('textarea');
