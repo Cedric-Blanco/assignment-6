@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 // Creating the text area
 const textArea = document.createElement('textarea');
 textArea.id = 'textInput';
@@ -105,3 +106,4 @@ document.getElementById('submitButton').addEventListener('click', function() {
  // Log the frequency table to the console
   console.log(frequencyTable);
 });
+})
